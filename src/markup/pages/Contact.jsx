@@ -52,7 +52,7 @@ function Contact() {
         <div className='space-y-4 flex flex-col items-start md:items-center md:ml-4'>
           <h2 className='text-[#F0F0F0] font-bold text-2xl'>Contact Info</h2>
           <div className='flex flex-col md:flex-row gap-4'>
-            <div className='flex flex-row md:flex-col items-start'>
+            <div className='flex flex-row md:flex-col items-start hidden sm:block'>
               <div className='m-2 text-[#009E66]'><DnsIcon /></div>
               <div className='m-2 text-[#009E66]'><CallIcon /></div>
               <div className='m-2 text-[#009E66]'><EmailIcon /></div>

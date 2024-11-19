@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <div
-        className="bg-cover bg-center h-screen flex flex-col items-center justify-center relative"
+        className="bg-cover bg-center h-[100vh] flex flex-col items-center justify-center relative"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -15,7 +15,7 @@ function Home() {
            I'AM MERON MULU
           </p>
           <p className='text-lg md:text-2xl font-semibold text-green-800'>
-            Software Engineer & Frontend Developer
+            Software Engineer
           </p>
         </div>
       </div>
